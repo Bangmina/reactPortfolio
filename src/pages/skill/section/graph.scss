@@ -1,0 +1,30 @@
+@import "../../../styles/index.scss";
+
+.graph {
+	&__box {
+	}
+	&__list {
+		display: flex;
+		justify-content: space-around;
+	}
+	&__item {
+		padding: 0 2rem 0;
+	}
+	&__item--title {
+		margin: 2rem;
+		text-align: center;
+		font-weight: normal;
+	}
+}
+.CircularProgressbar .CircularProgressbar-text {
+	fill: $orange;
+	opacity: 0.7;
+	font-weight: 300;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+	stroke: $orange;
+	opacity: 0.1;
+}
+.CircularProgressbar .CircularProgressbar-path {
+	stroke: $orange;
+}

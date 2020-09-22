@@ -1,0 +1,16 @@
+@import "../../styles/index.scss";
+
+.article {
+	&__template {
+		margin: 0 auto;
+		width: 102.4rem;
+		font-size: 1.6rem;
+		&:not(:last-child) {
+			// margin: 0 0 1.5rem 0;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+//
